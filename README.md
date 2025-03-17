@@ -1,14 +1,14 @@
 # ADA-Lab
 
-A Collection of programs based on the subject Analysis and Design of Algorithms done during the Lab hours
+A curated collection of programs focused on Advanced Design and Algorithms (ADA). This repository is developed as part of academic coursework and includes algorithmic problem solutions and performance evaluation.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Program Structure](#program-structure)
-  - [Lab 1](#lab-1) - 03/03/2025
-  - [Lab 2](#lab-2) - 10/03/2025
-  - [Lab 3](#lab-3) - 17/03/2025
+  - [Lab 1](#lab-1)
+  - [Lab 2](#lab-2)
+  - [Lab 3](#lab-3)
   - [LeetCode Practice](#leetcode-practice)
 
 ## Introduction
@@ -31,6 +31,16 @@ This repository contains various programs implemented in C, aimed at understandi
   - `SelectionSortGraph.pdf`: Performance graph showing time taken for various input sizes.
   - `SelectionSortOutput.png`: Sample output screenshot of the program execution.
 
+### Lab 3
+
+- **Merge Sort Implementation**:
+  - `MergeSort.c`: C implementation of the merge sort algorithm using divide and conquer. Efficient for large datasets with a time complexity of O(n log n).
+  - `MergeSort.exe`: Executable version for running the program on Windows.
+  - `MergeSort graph.pdf`: Graph illustrating the time complexity and performance of merge sort for varying input sizes.
+  - `Merge Sort vs Selection Sort graph.pdf`: Comparative graph analyzing the performance of merge sort versus selection sort across different datasets.
+
 ### LeetCode Practice
 
 - **155. Min Stack** (`155_MINSTACK.c`): Implementation of a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+Feel free to explore the folders and files to understand the implementation of various algorithms and solutions to different problems.
