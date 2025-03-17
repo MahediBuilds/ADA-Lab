@@ -1,6 +1,6 @@
 # ADA-Lab
 
-A curated collection of programs focused on Advanced Design and Algorithms (ADA). This repository is developed as part of academic coursework and includes algorithmic problem solutions and performance evaluation.
+A Collection of programs based on the subject Analysis and Design of Algorithms done during the Lab hours
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ A curated collection of programs focused on Advanced Design and Algorithms (ADA)
 - [Program Structure](#program-structure)
   - [Lab 1](#lab-1)
   - [Lab 2](#lab-2)
+  - [Lab 3](#lab-3) - 17/03/2025
   - [LeetCode Practice](#leetcode-practice)
 
 ## Introduction
