@@ -6,8 +6,8 @@ A Collection of programs based on the subject Analysis and Design of Algorithms 
 
 - [Introduction](#introduction)
 - [Program Structure](#program-structure)
-  - [Lab 1](#lab-1)
-  - [Lab 2](#lab-2)
+  - [Lab 1](#lab-1) - 03/03/2025
+  - [Lab 2](#lab-2) - 10/03/2025
   - [Lab 3](#lab-3) - 17/03/2025
   - [LeetCode Practice](#leetcode-practice)
 
