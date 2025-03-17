@@ -44,7 +44,7 @@ void main() {
                     start = clock();
                     split(a, 0, n - 1);
                     // Dummy loop to create delay
-                    for (j = 0; j < 500000; j++) {
+                    for (j = 0; j < 5000000; j++) {
                         temp = 38 / 600;
                     }
                     end = clock();
