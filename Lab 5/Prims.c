@@ -6,7 +6,7 @@
 void primMSTNoParent(int graph[V][V]) {
     int visited[V] = {0};
     int fromEdge[V - 1], toEdge[V - 1], edgeWeight[V - 1];
-    int edgeCount = 0;
+    int edgeCount = 0, cost = 0;
     visited[0] = 1;
 
     for(int i = 0; i < V - 1; i++) {
@@ -34,7 +34,9 @@ void primMSTNoParent(int graph[V][V]) {
     printf("Edge\tWeight\n");
     for(int i = 0; i < edgeCount; i++) {
         printf("%d - %d\t%d\n", fromEdge[i], toEdge[i], edgeWeight[i]);
+        cost += edgeWeight[i];
     }
+    printf("Total cost of MST: %d\n", cost);
 }
 
 int main() {
