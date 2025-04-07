@@ -39,11 +39,14 @@ void primMSTNoParent(int graph[V][V]) {
 
 int main() {
     int graph[V][V];
+    printf("Enter the adjacency matrix of the graph:\n");
     for(int i = 0; i < V; i++) {
         for(int j = 0; j < V; j++) {
+            printf("Edge (%d, %d): ", i, j);
             scanf("%d", &graph[i][j]);
         }
     }
+    printf("\n");
 
     primMSTNoParent(graph);
     return 0;
