@@ -18,8 +18,16 @@ void knapsack(int n, int W, int weights[], int values[]) {
             }
         }
     }
+    printf("The Table is:\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int w = 0; w <= W;w++){
+            printf("%d\t", dp[i][w]);
+        }
+        printf("\n");
+    }
 
-    printf("Maximum value: %d\n", dp[n][W]);
+        printf("Maximum value: %d\n", dp[n][W]);
 
     printf("Selected items (weight, value):\n");
     int w = W;
