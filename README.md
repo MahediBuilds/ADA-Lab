@@ -9,11 +9,14 @@ A curated collection of programs focused on Advanced Design and Algorithms (ADA)
   - [Lab 1](#lab-1)
   - [Lab 2](#lab-2)
   - [Lab 3](#lab-3)
+  - [Lab 4](#lab-4)
+  - [Lab 5](#lab-5)
+  - [Lab 6](#lab-6)
   - [LeetCode Practice](#leetcode-practice)
 
 ## Introduction
 
-This repository contains various programs implemented in C, aimed at understanding and applying advanced algorithmic techniques such as sorting, stack manipulation, queue handling, and greedy methods. The repository includes visual outputs for performance evaluation of sorting algorithms.
+This repository contains various programs implemented in C, aimed at understanding and applying advanced algorithmic techniques such as sorting, stack manipulation, queue handling, greedy methods, divide and conquer, and graph algorithms. The repository includes visual outputs for performance evaluation of sorting algorithms.
 
 ## Program Structure
 
@@ -26,7 +29,7 @@ This repository contains various programs implemented in C, aimed at understandi
 
 - **700. Number of Students Unable to Eat Lunch** (`700. Number of Students Unable to Eat Lunch.c`): Implements queue simulation to find how many students cannot eat lunch based on preference matching.
 - **Selection Sort Implementation**:
-  - `SelectionSort.c`: Core implementation of the selection sort algorithm. This program provides options for manual entry of array elements and displays the time taken to sort arrays of different sizes. The selection sort algorithm works by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning.
+  - `SelectionSort.c`: Core implementation of the selection sort algorithm. This program provides options for manual entry of array elements and displays the time taken to sort arrays of different sizes.
   - `SelectionSort.exe`: Executable for Windows users to run the program directly.
   - `SelectionSortGraph.pdf`: Performance graph showing time taken for various input sizes.
   - `SelectionSortOutput.png`: Sample output screenshot of the program execution.
@@ -38,6 +41,20 @@ This repository contains various programs implemented in C, aimed at understandi
   - `MergeSort.exe`: Executable version for running the program on Windows.
   - `MergeSort graph.pdf`: Graph illustrating the time complexity and performance of merge sort for varying input sizes.
   - `Merge Sort vs Selection Sort graph.pdf`: Comparative graph analyzing the performance of merge sort versus selection sort across different datasets.
+
+### Lab 4
+
+- **Stack and Queue Problems**: Additional stack and queue-based algorithmic problems and their C implementations.
+
+### Lab 5
+
+- **Prim's Algorithm** (`Prims.c`): C program to find the Minimum Spanning Tree (MST) of a graph using Prim's algorithm. Takes user input for the adjacency matrix.
+- **Other Greedy Algorithms**: Implementations of classic greedy algorithms.
+
+### Lab 6
+
+- **Knapsack Problem** (`Knapsack.c`): C program for the 0/1 Knapsack problem using dynamic programming. Takes user input and displays the DP table and selected items in tabular format.
+- **Dijkstra's Algorithm** (`Dijkstra.c`): C program to find the shortest path from a source vertex to all other vertices using Dijkstra's algorithm. Accepts adjacency matrix input with 9999 as infinity.
 
 ### LeetCode Practice
 
