@@ -40,11 +40,12 @@ int main() {
     scanf("%d", &n);
 
     printf("Enter the adjacency matrix (use 9999 for infinity):\n");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             printf("Edge (%d, %d): ", i, j);
             scanf("%d", &graph[i][j]);
         }
+    }
 
     floyd(graph, n);
 
