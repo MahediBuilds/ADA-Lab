@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define N 4
+#define N 4 
 
 void printSolution(int board[N][N]) {
     for (int i = 0; i < N; i++) {
