@@ -51,3 +51,34 @@ int main() {
 
     return 0;
 }
+
+/* 
+
+Sample Input:
+Enter the number of vertices: 4
+Enter the adjacency matrix (use 9999 for infinity):
+Edge (0, 0): 0
+Edge (0, 1): 5
+Edge (0, 2): 9999
+Edge (0, 3): 10
+Edge (1, 0): 9999
+Edge (1, 1): 0
+Edge (1, 2): 3
+Edge (1, 3): 9999
+Edge (2, 0): 9999
+Edge (2, 1): 9999
+Edge (2, 2): 0
+Edge (2, 3): 1
+Edge (3, 0): 9999
+Edge (3, 1): 9999
+Edge (3, 2): 9999
+Edge (3, 3): 0
+
+Expected Output:
+Shortest distances between every pair of vertices:
+0       5       8       9
+9999    0       3       4
+9999    9999    0       1
+9999    9999    9999    0
+
+*/

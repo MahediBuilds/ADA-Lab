@@ -53,3 +53,41 @@ int main() {
     primMSTNoParent(graph);
     return 0;
 }
+
+/*
+Sample Input:
+Enter the adjacency matrix of the graph:
+Edge (0, 0): 0
+Edge (0, 1): 2
+Edge (0, 2): 0
+Edge (0, 3): 6
+Edge (0, 4): 0
+Edge (1, 0): 2
+Edge (1, 1): 0
+Edge (1, 2): 3
+Edge (1, 3): 8
+Edge (1, 4): 5
+Edge (2, 0): 0
+Edge (2, 1): 3
+Edge (2, 2): 0
+Edge (2, 3): 0
+Edge (2, 4): 7
+Edge (3, 0): 6
+Edge (3, 1): 8
+Edge (3, 2): 0
+Edge (3, 3): 0
+Edge (3, 4): 9
+Edge (4, 0): 0
+Edge (4, 1): 5
+Edge (4, 2): 7
+Edge (4, 3): 9
+Edge (4, 4): 0
+
+Sample Output:
+Edge    Weight
+0 - 1   2
+1 - 2   3
+0 - 3   6
+1 - 4   5
+Total cost of MST: 16
+*/
