@@ -7,6 +7,7 @@ int max(int a, int b) {
 void knapsack(int n, int W, int weights[], int values[]) {
     int dp[n + 1][W + 1];
 
+    // Build the DP table
     for (int i = 0; i <= n; i++) {
         for (int w = 0; w <= W; w++) {
             if (i == 0 || w == 0) {
@@ -18,17 +19,20 @@ void knapsack(int n, int W, int weights[], int values[]) {
             }
         }
     }
-    printf("The Table is:\n");
-    for (int i = 0; i < (n + 1); i++)
-    {
-        for (int w = 0; w <= W;w++){
+
+    // Print DP table
+    printf("\nThe Table is:\n");
+    for (int i = 0; i <= n; i++) {
+        for (int w = 0; w <= W; w++) {
             printf("%d\t", dp[i][w]);
         }
         printf("\n");
     }
 
-        printf("Maximum value: %d\n", dp[n][W]);
+    // Print maximum value
+    printf("\nMaximum value: %d\n", dp[n][W]);
 
+    // Trace back to find selected items
     printf("Selected items (weight, value):\n");
     int w = W;
     for (int i = n; i > 0 && w > 0; i--) {
@@ -62,3 +66,29 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Sample Input/Output:
+
+Enter the number of items: 3
+Enter the weights and values of the items:
+Item 1 - Weight: 1
+Item 1 - Value: 10
+Item 2 - Weight: 3
+Item 2 - Value: 40
+Item 3 - Weight: 4
+Item 3 - Value: 50
+Enter the maximum capacity of the knapsack: 5
+
+The Table is:
+0	0	0	0	0	0
+0	10	10	10	10	10
+0	10	10	40	50	50
+0	10	10	40	50	60
+
+Maximum value: 60
+Selected items (weight, value):
+Item 3-(4, 50)
+Item 1-(1, 10)
+*/
